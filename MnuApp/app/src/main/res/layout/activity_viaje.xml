@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B49FF5C7"
+    android:orientation="vertical"
+    tools:context=".ViajeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gas"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULADORA DE VIAJE"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/etxTotalKilometros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total de km recorridos"
+        android:inputType="numberDecimal"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/etxPrecioPorLt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio por litros"
+        android:inputType="numberDecimal"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/etxGasolinaLitros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total de gasto de gas"
+        android:inputType="numberDecimal"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/etxDuracionMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duracion en minutos"
+        android:inputType="number"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/btnCalculaViaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/txvResultadoViaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="10pt" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20pt" />
+
+    <Button
+        android:id="@+id/btnRetorno"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:text="Retornar a principal"
+        android:textSize="10pt"
+        android:layout_centerInParent="true"
+        />
+
+
+</LinearLayout>
