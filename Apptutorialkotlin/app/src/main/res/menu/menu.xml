@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itmAcerca"
+        android:title="Acerca de" />
+    <item android:id="@+id/itmObjetivo"
+        android:title="Objetivo del Tutorial" />
+    <item android:id="@+id/itmSalir"
+        android:title="Salir" />
+</menu>
