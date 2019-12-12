@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itmJuego"
+        android:title="Juego de Preguntas"/>
+    <item android:id="@+id/itmCons"
+        android:title="Consultas en Internet"/>
+    <item android:id="@+id/itmCurio"
+        android:title="Datos curiosos"/>
+    <item android:id="@+id/itmSql"
+        android:title="SQLite"/>
+    <item android:id="@+id/itmCred"
+        android:title="Créditos"/>
+    <item android:id="@+id/itmSalir"
+        android:title="Salir"/>
+</menu>
